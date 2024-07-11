@@ -3,7 +3,7 @@ from devgagan import app
 from devgagan.core import script
 from devgagan.core.func import subscribe
 from config import OWNER_ID ,SUPPORT, CHANNEL
-from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, 
+from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton 
 
 # ------------------- Start-Buttons ------------------- #
 
