@@ -3,14 +3,14 @@ from devgagan import app
 from devgagan.core import script
 from devgagan.core.func import subscribe
 from config import OWNER_ID
-from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, SUPPORT, CHANNEL, BU
 
 # ------------------- Start-Buttons ------------------- #
 
 buttons = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("Join Channel", url="https://t.me/devggn")],
-        [InlineKeyboardButton("Buy Premium", url="https://t.me/ttonehelpbot")]
+        [InlineKeyboardButton("Join Channel", url="https://t.me/{CHANNEL}")],
+        [InlineKeyboardButton("Buy Premium", url="https://t.me/{SUPPORT}")]
     ]
 )
 
