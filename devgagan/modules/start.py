@@ -2,8 +2,8 @@ from pyrogram import filters
 from devgagan import app
 from devgagan.core import script
 from devgagan.core.func import subscribe
-from config import OWNER_ID
-from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, SUPPORT, CHANNEL, BU
+from config import OWNER_ID ,SUPPORT, CHANNEL
+from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 # ------------------- Start-Buttons ------------------- #
 
